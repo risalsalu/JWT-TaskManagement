@@ -4,7 +4,7 @@ namespace TaskApiDemo.Services
 {
     public interface ITaskService
     {
-        TaskItem Creat(TaskItem task);
+        TaskItem Create(TaskItem task);
         IEnumerable<TaskItem> GetAll();
         TaskItem? GetById(int id);
         bool Update(int id, TaskItem task);
